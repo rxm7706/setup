@@ -1,0 +1,20 @@
+Windows Setup
+------------------------
+Google Chrome
+Octave
+VSCode
+ConEmu
+Git for Windows
+Scilab
+Miniconda
+
+
+Environment variables:
+set HOME
+
+
+VSCode:
+Emacs Minimum Keymap Extension
+Python Extension
+keybindings.json
+vscode_settings.json

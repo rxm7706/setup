@@ -1,0 +1,42 @@
+[user]
+    email = steven.silvester@ieee.org
+    name = Steven Silvester
+[github]
+    user = blink1073
+[push]
+    default = current
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+    pager = less -r
+[gui]
+    fontui = -family Inconsolata -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+    fontdiff = -family Inconsolata -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+[alias]
+    st = status
+    co = checkout
+    po = push origin
+    ca = checkout -a
+    del = branch --delete
+    sdiff = diff --staged
+    wdiff = diff --word-diff
+    prlog = log --grep 'Merge pull request'
+    qlog = log --pretty=oneline --abbrev-commit --graph --decorate
+[url "https://"]
+    insteadOf = git://
+[init]
+	defaultBranch = main
+[rebase]
+	autoStash = true
+[merge]
+    autoStash = true
+[pull]
+    autoStash = true
+	rebase = false
+[checkout]
+    defaultRemote = origin

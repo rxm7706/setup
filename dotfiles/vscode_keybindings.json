@@ -1,0 +1,21 @@
+[
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.selectAll",
+        "when": "textInputFocus"
+    },
+    {
+        "command": "deleteAllRight",
+        "key": "ctrl+k",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "command": "deleteAllLeft",
+        "key": "ctrl+u",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
