@@ -3,8 +3,6 @@ channels:
 dependencies:
   - anaconda-project
   - autopep8
-  - black
-  - boa
   - cmake
   - conda-build-all
   - conda-export
@@ -15,14 +13,11 @@ dependencies:
   - constructor
   - cookiecutter
   - decorator
-  - flake8
   - gcc
   - gh
-  - gradle
   - grayskull
   - isort
   - make
-  - maven
   - mypy
   - ncdu
   - pandas
@@ -33,10 +28,7 @@ dependencies:
   - pyparsing
   - python-graphviz
   - regex
-  - sbt
   - sphinx
   - sqlite
   - su-exec
   - tini
-  - tox-conda
-  - yarn
